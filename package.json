@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "repository": "git://github.com/abeliam/lab-transform-preset-env",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.0.0-rc.1"
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1"
   }
 }
