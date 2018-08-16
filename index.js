@@ -10,6 +10,9 @@ function transform(content, filename) {
                 "node": "current"
             },
         }]],
+	plugins: [
+		"syntax-dynamic-import"
+	],
         cwd: __dirname,
         filename: filename,
         sourceFileName: filename,
