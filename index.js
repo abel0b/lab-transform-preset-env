@@ -10,7 +10,6 @@ function transform(content, filename) {
                 "node": "current"
             },
         }]],
-	plugins: ["@babel/plugin-syntax-dynamic-import"],
         cwd: __dirname,
         filename: filename,
         sourceFileName: filename,
