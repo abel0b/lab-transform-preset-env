@@ -1,16 +1,12 @@
 const babel = require('@babel/core')
+const path = require('path')
 
 function transform(content, filename) {
     if (/node_modules/.test(filename))
         return content;
 
     const {code} = babel.transformSync(content, {
-        presets: [['@babel/preset-env', {
-              "targets": {
-                "node": "current"
-            },
-        }]],
-        cwd: __dirname,
+        extends: path.join(__dirname, '.babelrc'),
         filename: filename,
         sourceFileName: filename,
         sourceMaps: 'inline',
