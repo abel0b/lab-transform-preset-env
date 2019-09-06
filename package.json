@@ -1,6 +1,6 @@
 {
   "name": "lab-transform-preset-env",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "repository": "git://github.com/abeliam/lab-transform-preset-env",
   "main": "index.js",
